@@ -1,0 +1,45 @@
+.navBar{
+  position: fixed;
+  z-index: 100;
+  max-width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  top:0;
+  left:0;
+  right:0;
+  width: 100%;
+  background-color: #0d6efd;
+  font-weight: 600;
+}
+
+li {
+    list-style-type:none;
+}
+
+#up-button{
+  display: block;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+  outline: none;
+  background-color: #298eff;
+  border: 1px solid #333;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#up-button.show{
+  display: none;
+}
+
+link {
+  color:white;
+}
+footer {
+  max-width: auto;
+  color: #EEE ;
+  background-color: #444;
+  left:0;
+  right:0;
+}
