@@ -1,6 +1,7 @@
 
 .accueil {
-    background-image: url(../assets/img/room.jpg);
+    background-color: rgba(0 ,0 ,0 , 0.3);
+    background-image: url(../assets/img/room.jpg);    
     background-size: cover;
     display: flex;
     flex-direction: column;
